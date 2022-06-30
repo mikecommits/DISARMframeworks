@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--75d4e22d-9c3d-4873-88b9-80c50a625131",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c3d42289-ad15-486c-bb28-fd5c32f58de2",
+            "created_by_ref": "identity--ea12a890-b670-4166-b57b-9b1394e55278",
+            "created": "2022-06-30T23:48:52.81076Z",
+            "modified": "2022-06-30T23:48:52.81076Z",
+            "name": "Harass",
+            "description": "TA18",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "drive-online-harms"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0080.md",
+                    "external_id": "T0080"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--9ab02db0-1990-4a9e-b111-ec01f8103120"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

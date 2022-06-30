@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--e226d002-65d5-4ef3-b1f0-3966e571d86c",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9bd7d02f-4762-45fa-9b5b-12594679c27e",
+            "created_by_ref": "identity--3860f3ec-0635-4f05-9898-19f394000e06",
+            "created": "2022-06-30T23:48:52.817359Z",
+            "modified": "2022-06-30T23:48:52.817359Z",
+            "name": "Develop Audio-based Content",
+            "description": "TA06",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0024.md",
+                    "external_id": "T0024"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--734db60b-7b47-4be7-a569-44ff7873c319"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

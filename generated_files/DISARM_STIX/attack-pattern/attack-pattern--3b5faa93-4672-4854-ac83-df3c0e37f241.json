@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--99af77c6-5b06-4f8c-abcf-720b129dbd0b",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--3b5faa93-4672-4854-ac83-df3c0e37f241",
+            "created_by_ref": "identity--66e7922c-9497-4eb5-8cc9-4fa177bd5e0a",
+            "created": "2022-06-30T23:48:52.79916Z",
+            "modified": "2022-06-30T23:48:52.79916Z",
+            "name": "Identify Social and Technical Vulnerabilities",
+            "description": "TA13",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "target-audience-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0011.md",
+                    "external_id": "T0011"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--e4621e14-cd30-467a-b40d-04e345fa018d"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

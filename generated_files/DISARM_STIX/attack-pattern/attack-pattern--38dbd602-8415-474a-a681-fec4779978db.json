@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--2c7e4831-02d0-43f9-9c8c-7b67291c8bc1",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--38dbd602-8415-474a-a681-fec4779978db",
+            "created_by_ref": "identity--99c49b68-26b2-44fc-8a45-5f2d0d703031",
+            "created": "2022-06-30T23:48:52.808681Z",
+            "modified": "2022-06-30T23:48:52.808681Z",
+            "name": "Dismiss",
+            "description": "TA02",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "plan-objectives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0003.md",
+                    "external_id": "T0003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--424cd6bf-bb4e-488d-ac45-7699210e9903"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

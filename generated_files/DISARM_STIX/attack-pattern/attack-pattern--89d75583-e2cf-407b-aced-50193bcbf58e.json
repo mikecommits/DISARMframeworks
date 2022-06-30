@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--2c55e148-47c5-489c-b534-d19be2935ade",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--89d75583-e2cf-407b-aced-50193bcbf58e",
+            "created_by_ref": "identity--b9f89984-2313-47ad-bd2c-2947c1331fac",
+            "created": "2022-06-30T23:48:52.820594Z",
+            "modified": "2022-06-30T23:48:52.820594Z",
+            "name": "Leverage Content Farm",
+            "description": "TA15",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-social-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0040.md",
+                    "external_id": "T0040"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f0a88c57-d604-46af-9de6-646d5ff91c03"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

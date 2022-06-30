@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--de72e040-5171-4217-a178-d9ff1f305857",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--445b77a3-13f5-4ffc-921b-ac149fab69b6",
+            "created_by_ref": "identity--06618288-b403-44a7-9be4-7531e3605ade",
+            "created": "2022-06-30T23:48:52.821537Z",
+            "modified": "2022-06-30T23:48:52.821537Z",
+            "name": "Livestream",
+            "description": "TA07",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0052.md",
+                    "external_id": "T0052"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--a5ec15c4-6a99-4944-b79c-52aeadbb62c7"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

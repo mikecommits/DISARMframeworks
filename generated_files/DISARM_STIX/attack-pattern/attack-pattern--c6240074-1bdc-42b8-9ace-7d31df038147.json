@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--5305f1ff-e9fc-4818-bba4-e043a34f359a",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c6240074-1bdc-42b8-9ace-7d31df038147",
+            "created_by_ref": "identity--a86310b1-8b06-48d7-ace0-b46bd1161db3",
+            "created": "2022-06-30T23:48:52.785758Z",
+            "modified": "2022-06-30T23:48:52.785758Z",
+            "name": "Conceal People",
+            "description": "TA11",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "persist-in-the-information-environment"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0090.md",
+                    "external_id": "T0090"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f7381aba-5a8c-4123-835e-98631562be1f"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

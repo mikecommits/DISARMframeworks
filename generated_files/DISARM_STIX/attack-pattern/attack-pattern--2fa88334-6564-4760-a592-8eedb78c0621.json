@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--59ef2f08-4c28-4e6a-90a8-2be7fb03f7eb",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--2fa88334-6564-4760-a592-8eedb78c0621",
+            "created_by_ref": "identity--d814398e-c8d1-49df-93e2-c795d818feaf",
+            "created": "2022-06-30T23:48:52.794552Z",
+            "modified": "2022-06-30T23:48:52.794552Z",
+            "name": "Deliver Ads",
+            "description": "TA09",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "deliver-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0070.md",
+                    "external_id": "T0070"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--ce4397cd-3203-4544-a4f7-e97d94a2f1a3"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

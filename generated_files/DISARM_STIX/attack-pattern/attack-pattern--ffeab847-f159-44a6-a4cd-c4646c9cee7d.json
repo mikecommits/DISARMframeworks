@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--1d49dc09-a66f-4d0c-9659-e2fc75e29d76",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ffeab847-f159-44a6-a4cd-c4646c9cee7d",
+            "created_by_ref": "identity--c9ed5534-b495-4192-9a10-3793340fca79",
+            "created": "2022-06-30T23:48:52.780538Z",
+            "modified": "2022-06-30T23:48:52.780538Z",
+            "name": "Leverage Conspiracy Theory Narratives",
+            "description": "TA14",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-narratives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0016.md",
+                    "external_id": "T0016"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--673dd14e-e58d-445b-852c-91fa1eb120b3"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

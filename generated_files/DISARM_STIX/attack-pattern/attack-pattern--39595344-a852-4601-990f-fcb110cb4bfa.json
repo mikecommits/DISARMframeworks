@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--9663599b-b6a8-4901-99b7-ff37b3f1a4aa",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--39595344-a852-4601-990f-fcb110cb4bfa",
+            "created_by_ref": "identity--d70f0052-3ffa-43c4-b3aa-0d3930358f4d",
+            "created": "2022-06-30T23:48:52.799659Z",
+            "modified": "2022-06-30T23:48:52.799659Z",
+            "name": "Incentivize Sharing",
+            "description": "TA17",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "maximize-exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0077.md",
+                    "external_id": "T0077"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--3cb1c5d3-2b7c-413b-9ec1-56013d160069"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

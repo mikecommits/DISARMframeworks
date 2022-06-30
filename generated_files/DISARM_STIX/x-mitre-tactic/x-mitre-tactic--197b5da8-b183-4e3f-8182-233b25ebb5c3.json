@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--a881256b-5a72-46ab-8792-bd43b092d83f",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--197b5da8-b183-4e3f-8182-233b25ebb5c3",
+            "created_by_ref": "identity--e0a7b526-46bd-4804-a602-fcd935ffcc2f",
+            "created": "2022-06-30T23:48:52.778668Z",
+            "modified": "2022-06-30T23:48:52.778668Z",
+            "name": "Establish Legitimacy",
+            "description": "TBD",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/tactics/TA16.md",
+                    "external_id": "TA16"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--4dd3e94c-0ea1-48f5-9192-5d9a6ae511a7"
+            ],
+            "x_mitre_shortname": "establish-legitimacy"
+        }
+    ]
+}

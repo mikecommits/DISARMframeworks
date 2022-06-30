@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--38c92d05-8b40-424c-a9ed-16215941e23d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c0169f16-2909-48b5-be45-a16115182307",
+            "created_by_ref": "identity--b5e31de8-f950-401e-af10-09bdad5987b3",
+            "created": "2022-06-30T23:48:52.804458Z",
+            "modified": "2022-06-30T23:48:52.804458Z",
+            "name": "Encourage Attendance at Events",
+            "description": "TA10",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "drive-offline-activity"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0085.md",
+                    "external_id": "T0085"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--4a76bd72-7bc4-4ac9-9d58-ef30afa0b57f"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

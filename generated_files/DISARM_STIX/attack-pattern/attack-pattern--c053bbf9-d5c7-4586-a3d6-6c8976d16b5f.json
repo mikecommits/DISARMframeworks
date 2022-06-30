@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--a2125a41-2d77-427b-9d41-00711e357f31",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c053bbf9-d5c7-4586-a3d6-6c8976d16b5f",
+            "created_by_ref": "identity--a41162c7-fb65-47d3-bdc3-7ed0744bf9e6",
+            "created": "2022-06-30T23:48:52.786218Z",
+            "modified": "2022-06-30T23:48:52.786218Z",
+            "name": "Control Information Environment through Offensive Cyberspace Operations",
+            "description": "TA18",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "drive-online-harms"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0082.md",
+                    "external_id": "T0082"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--47a3ab06-3433-46fe-882a-df42b1cfdd04"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

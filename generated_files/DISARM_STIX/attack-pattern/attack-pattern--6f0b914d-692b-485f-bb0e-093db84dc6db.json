@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--05989498-5a1d-430e-a083-bf4d5ec4b147",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--6f0b914d-692b-485f-bb0e-093db84dc6db",
+            "created_by_ref": "identity--f77fda2b-c182-4db4-ac43-e3292cd15ffb",
+            "created": "2022-06-30T23:48:52.803985Z",
+            "modified": "2022-06-30T23:48:52.803985Z",
+            "name": "Establish Inauthentic News Sites",
+            "description": "TA16",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-legitimacy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0044.md",
+                    "external_id": "T0044"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--6b7b66d5-bfb3-4a56-8468-89c4c293d9e4"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

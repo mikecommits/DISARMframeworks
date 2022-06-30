@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--31d0e00b-2edd-4e94-b90f-a04a109f1636",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c8273e2a-5d63-4cf7-aca3-7cfe2d2ccccb",
+            "created_by_ref": "identity--9280e48b-a176-46e7-a8f8-ccc5ca6a4b3a",
+            "created": "2022-06-30T23:48:52.819677Z",
+            "modified": "2022-06-30T23:48:52.819677Z",
+            "name": "Acquire/ recruit Network",
+            "description": "TA15",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-social-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0033.md",
+                    "external_id": "T0033"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--30f4b405-69ba-4c30-b848-82c2bce5bcc1"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

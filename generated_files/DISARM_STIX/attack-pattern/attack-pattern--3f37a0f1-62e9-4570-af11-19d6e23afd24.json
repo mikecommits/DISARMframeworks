@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--3f428531-60f6-449f-8d83-a652dae03ffa",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--3f37a0f1-62e9-4570-af11-19d6e23afd24",
+            "created_by_ref": "identity--a864247d-8ffb-4a32-865d-80838a82d1a3",
+            "created": "2022-06-30T23:48:52.792699Z",
+            "modified": "2022-06-30T23:48:52.792699Z",
+            "name": "Cultivate ignorant agents",
+            "description": "TA15",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-social-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0031.md",
+                    "external_id": "T0031"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--d25d9b3b-e75b-421c-8b24-3cf2bad5760a"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

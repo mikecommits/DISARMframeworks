@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--ba225b9e-4a69-4245-97b6-6521b3bc653d",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--cb9ab8b0-df82-4b45-8203-1a68675e21a6",
+            "created_by_ref": "identity--046b1e94-5101-4d26-814c-ce01763ee53e",
+            "created": "2022-06-30T23:48:52.775787Z",
+            "modified": "2022-06-30T23:48:52.775787Z",
+            "name": "Drive Offline Activity",
+            "description": "Move incident/campaign from online to offline. Encouraging users to move from the platform on which they initially viewed operation content and engage in the physical information space or offline world. This may include operation-aligned rallies or protests, radio, newspaper, or billboards. An influence  operation may drive to physical forums to diversify its information channels and facilitate spaces where the target audience can engage with both operation content and like-minded individuals offline.  ",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/tactics/TA10.md",
+                    "external_id": "TA10"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f8041bea-c124-476c-83c0-108ff7d60f73"
+            ],
+            "x_mitre_shortname": "drive-offline-activity"
+        }
+    ]
+}

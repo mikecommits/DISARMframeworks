@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--500e4709-aebf-4053-b36d-54684dfb95b3",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--3fd168cd-3fdb-4b7a-b7a6-34ba3b5551a3",
+            "created_by_ref": "identity--212242d4-9ee5-4479-8f4d-8b99f105104d",
+            "created": "2022-06-30T23:48:52.801585Z",
+            "modified": "2022-06-30T23:48:52.801585Z",
+            "name": "Manipulate Platform Algorithm",
+            "description": "TA17",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "maximize-exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0078.md",
+                    "external_id": "T0078"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--15f0630c-4785-4e2a-98ad-3e26b2268a7b"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

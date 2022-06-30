@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--6b251356-9bf6-4331-b830-b61daa1f162f",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ce1d41b4-66f1-4eda-aa62-7f1fd4e31464",
+            "created_by_ref": "identity--67b049d6-f197-4221-8bd6-9706a63af069",
+            "created": "2022-06-30T23:48:52.785296Z",
+            "modified": "2022-06-30T23:48:52.785296Z",
+            "name": "Employ Commercial Analytic Firms",
+            "description": "TA08",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "conduct-pump-priming"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0069.md",
+                    "external_id": "T0069"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--548215d5-721e-447a-b537-37e29302cba2"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

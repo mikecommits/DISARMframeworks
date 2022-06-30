@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--f97d3075-472e-4f6c-a696-e46b70be2356",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--fd2e190a-59ca-467b-8d0f-ec96d556d957",
+            "created_by_ref": "identity--4b21844f-838f-405e-8a0f-27dd596d553b",
+            "created": "2022-06-30T23:48:52.782037Z",
+            "modified": "2022-06-30T23:48:52.782037Z",
+            "name": "Amplify Existing Narrative",
+            "description": "TA17",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "maximize-exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0075.md",
+                    "external_id": "T0075"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--5e35e048-2560-44bd-aa0e-07fffedb2813"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

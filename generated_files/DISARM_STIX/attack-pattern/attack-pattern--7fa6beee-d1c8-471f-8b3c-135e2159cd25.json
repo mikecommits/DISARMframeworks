@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--3dfd37af-25cb-4e80-bb9c-fdfe37c8f6b8",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--7fa6beee-d1c8-471f-8b3c-135e2159cd25",
+            "created_by_ref": "identity--70b22e74-70e0-48c3-b84f-fea933ff79c4",
+            "created": "2022-06-30T23:48:52.79732Z",
+            "modified": "2022-06-30T23:48:52.79732Z",
+            "name": "Flooding the Information Space",
+            "description": "TA17",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "maximize-exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0074.md",
+                    "external_id": "T0074"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--617a9a37-e86d-49c8-b720-f8434a6e2e60"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}

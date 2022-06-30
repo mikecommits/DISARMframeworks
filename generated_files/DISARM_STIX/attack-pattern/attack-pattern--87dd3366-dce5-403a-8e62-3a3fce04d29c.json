@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--b4f651de-306c-4c78-bff0-c8aa38bd509c",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--87dd3366-dce5-403a-8e62-3a3fce04d29c",
+            "created_by_ref": "identity--94495782-45bc-4fd7-a9bd-c2fb378252e9",
+            "created": "2022-06-30T23:48:52.809145Z",
+            "modified": "2022-06-30T23:48:52.809145Z",
+            "name": "Distract",
+            "description": "TA02",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "plan-objectives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARM_framework/blob/master/techniques/T0005.md",
+                    "external_id": "T0005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--86b0e910-92c3-4e85-a7dc-ecbe2a238490"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "1,0"
+        }
+    ]
+}
